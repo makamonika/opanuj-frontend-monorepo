@@ -38,6 +38,7 @@
     
   
     override render() {
+      const x = "test";
       return html`<sl-alert
         variant=${ifDefined(this.variant)}
         ?open=${this.open}
